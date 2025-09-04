@@ -1,0 +1,11 @@
+1- Chof changes li daro f l fichier(ayi fichier)
+  => git status
+2- Bach tzid dakch li tbedel
+  => git add . = bach tzid kolchi
+  => git add <smit l fichier> == bach tzid fichier wahd ex: git add index.html
+3- Bach te3ti wahd lwassf l dik l git add(les fichiers li zedti)
+  => git commit -m "message li bghiti te3tih" ex: git commit "Feat: updated UI/ UX"
+4- Bach t7et dakchi f repo dyal github (repo = fin 7at l projet) ex: https://github.com/cham71908-prog/first-project.git
+  => git push => bach t pushi fchi branch exacte git push origin <smit l branch>
+5- bach tjib les changements jdad(ayi haja tzadet)
+    => git pull => bach t pulli fchi branch exacte git pull origin <smit l branch>
