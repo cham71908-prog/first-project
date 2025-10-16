@@ -142,21 +142,38 @@
      </video> 
      <hr>
 
-     <form>
+     <form action="" method="get">
         <div>
             <label> Username </label>
-            <input type="text" required placeholder="Username">
+            <input type="text" required placeholder="Username" name="user">
         </div>
         <br>
         <div>
             <label> Password </label>
-            <input type="password" required placeholder="write a complex password" >
+            <input type="password" required placeholder="write a complex password" name="pass" >
         </div>
         <br>
         <div>
             <label> Email </label>
-            <input type="text" required  placeholder="write a valid email" value="hicham@gmail.com" >
+            <input type="text" required  placeholder="write a valid email" value="hicham@gmail.com" name="mail" >
         </div>
-        <input type="submit" value="save">
+        
+        <div>
+            <label>color</label>
+            <input type="color" name="color">
+        </div>
+        <div>
+        <label>range</label>
+        <input type="range" name="range" min="0" max="100" value="0" step="10">
+        </div>
+        <div>
+        <label>numbe</label>
+        <input type="number" name="numbe" min="10" max="50" value="3" step="14">
+        </div>
+
+        <input type="reset" value="i3adat ta3yiiin">
+        <input type="submit" value="save"> 
+        <input type="hidden" value="hicham">
+        
      </form>
 </html>
