@@ -15,7 +15,9 @@ nav {
 h1 {
 
     color: #4a9f64;
-    font-family: 'Courier New', Courier, monospace; font-size:large; font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
     margin-left: 15px;
 }
 
