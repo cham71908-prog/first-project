@@ -56,3 +56,12 @@ console.log(fruits);
 // access
 let str4 = "Programming";
 console.log(str4[4]); 
+
+
+
+
+// syb fonction katakhed 2 params w katreje3 sum dyal had 2 params
+const haha = () => {
+}
+console.log("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+console.log(haha())
