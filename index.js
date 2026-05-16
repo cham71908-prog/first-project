@@ -1,4 +1,4 @@
-let x = 5;
+/*let x = 5;
 let y = 10;
  console.log(x + y);
 
@@ -55,13 +55,84 @@ console.log(fruits);
 
 // access
 let str4 = "Programming";
-console.log(str4[4]); 
+console.log(str4[4]);*/
+
+/*constantes
+1 - Array
+1 - Object
+3 - function
+4 - RegExp 
+
+const countries = ['Maroc', 'Canada', 'Qatar']
+countries[2]='Spain'
+countries.push('palastine')
+console.table(countries)
 
 
 
+const animal = {
+    color : 'black',
+    age : '5',
+    owner : 'kamal',
+    type : 'dog'
+};
+const div = document.createElement('div');
+div.textContent= `
+    color: ${animal.color},
+    age : ${animal.age},
+    owner : ${animal.owner},
+    type : ${animal.type}
+`
+document.body.appendChild(div)
+cc
+const displayAnimal =div =>{
+    document.body.appendChild(div);
 
-// syb fonction katakhed 2 params w katreje3 sum dyal had 2 params
-const haha = () => {
+};
+displayAnimal(div)
+    
+
+//Les fonctions fléchées (arrow functions)
+
+function some(a, b) {
+    return a + b;
 }
-console.log("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
-console.log(haha())
+
+const result = some(5, 10);
+
+const hello = document.createElement('div');
+
+hello.textContent = result;
+
+document.body.appendChild(hello);*/
+
+function add() {
+    const num1 = document.getElementById("num1").value;
+    const num2 = document.getElementById("num2").value;
+
+    const result = Number(num1) + Number(num2);
+
+    document.getElementById("result").textContent = result;
+}
+
+function subtract() {
+    const num1 = document.getElementById("num1").value;
+    const num2 = document.getElementById("num2").value;
+
+    const result = Number(num1) - Number(num2);
+
+    document.getElementById("result").textContent = result;
+}
+
+function multiply() {
+    const num1 = document.getElementById('num1').value;
+    const num2 = document.getElementById('num2').value;
+
+    const result = Number(num1) * Number(num2);
+
+    document.getElementById("result").textContent = result;
+}
+
+function divide() {
+    // @ to do
+}
