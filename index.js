@@ -68,6 +68,16 @@ countries[2]='Spain'
 countries.push('palastine')
 console.table(countries)
 
+const name = 'i love java script ';
+
+    console.log(name.indexOf('a',9));
+    console.log(name.lastIndexOf('a',9));
+    console.log(name.includes('m'));
+    console.log(name.startsWith('love',2));
+    console.log(name.endsWith('j',8));
+
+    */
+
 
 
 const animal = {
@@ -84,7 +94,6 @@ div.textContent= `
     type : ${animal.type}
 `
 document.body.appendChild(div)
-cc
 const displayAnimal =div =>{
     document.body.appendChild(div);
 
@@ -104,7 +113,7 @@ const hello = document.createElement('div');
 
 hello.textContent = result;
 
-document.body.appendChild(hello);*/
+document.body.appendChild(hello);
 
 function add() {
     const num1 = document.getElementById("num1").value;
@@ -125,8 +134,8 @@ function subtract() {
 }
 
 function multiply() {
-    const num1 = document.getElementById('num1').value;
-    const num2 = document.getElementById('num2').value;
+    const num1 = document.getElementById("num1").value;
+    const num2 = document.getElementById("num2").value;
 
     const result = Number(num1) * Number(num2);
 
@@ -134,5 +143,10 @@ function multiply() {
 }
 
 function divide() {
-    // @ to do
-}
+    const num1 = document.getElementById("num1").value;
+    const num2 = document.getElementById("num2").value;
+
+    const result = Number(num1) / Number(num2);
+    
+    document.getElementById("result").textContent = result;
+} 
