@@ -76,9 +76,6 @@ const name = 'i love java script ';
     console.log(name.startsWith('love',2));
     console.log(name.endsWith('j',8));
 
-    */
-
-
 
 const animal = {
     color : 'black',
@@ -113,7 +110,27 @@ const hello = document.createElement('div');
 
 hello.textContent = result;
 
-document.body.appendChild(hello);
+document.body.appendChild(hello); */
+
+
+
+// DataType : [ Array ]
+let names = ['hicham', 'ahmed', 'taha']
+console.log(names[names.length-1]); 
+
+let objects = [1,2,3,[4,5,6,['k', 'w', 'p']]]
+console.log(objects[3][3][0])
+
+let title = ['hicham', 'ahmed', 'taha']
+title [2] = 'brother'
+console.log(title)
+
+
+
+
+
+
+
 
 function add() {
     const num1 = document.getElementById("num1").value;
