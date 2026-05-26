@@ -115,18 +115,27 @@ document.body.appendChild(hello); */
 
 
 // DataType : [ Array ]
-let names = ['hicham', 'ahmed', 'taha']
+let names = ['hicham', 'ahmed', 'achddir']
 console.log(names[names.length-1]); 
 
 let objects = [1,2,3,[4,5,6,['k', 'w', 'p']]]
 console.log(objects[3][3][0])
 
-let title = ['hicham', 'ahmed', 'taha']
+let title = ['hicham','ahmed', 'taha']
 title [2] = 'brother'
 console.log(title)
 
+const hm = ['hicham','ahmed', 'taha']
+hm.push('hamza') // push : add element to last index
+hm.unshift('akram') // unshift : add element to first index 
+//hm.shift() // shift() : delete  add element to first index 
+//hm.pop() //  pop() : delete element to last index
+console.log(hm)
 
-
+const ls = ['hicham','ahmed', 'taha']
+ls.splice(1,1,'achddir') // splice : (start ,count ,add ,add)
+                        // slice : (start , end)
+console.log(ls)
 
 
 
