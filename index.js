@@ -137,6 +137,23 @@ ls.splice(1,1,'achddir') // splice : (start ,count ,add ,add)
                         // slice : (start , end)
 console.log(ls)
 
+// Array search
+const arr = ['casablanca' ,'rabat' ,'sale' ,'marakech' ,'rabat' ,'casablanca'] 
+console.log(arr.indexOf('rabat',2))
+console.log(arr.lastIndexOf('casablanca',-1))
+console.log(arr.includes('marakech',4))
+
+// Sort Array
+const js = [34, 35, 325, 523, 2, 4]
+console.log(js.sort((a,b) => a - b))
+console.log(js.sort((a,b) => b - a))
+
+// Reverse Array
+const sj = [46, 64, 63]
+console.log(sj.reverse())
+
+
+
 
 
 
