@@ -152,7 +152,13 @@ console.log(js.sort((a,b) => b - a))
 const sj = [46, 64, 63]
 console.log(sj.reverse())
 
+//Concat and Join Array
+let html1 = ['casa' ,'marksh' ,'taza']
+let html2 = ['tetoun' ,'tange' ,'knitra']
 
+
+console.log(html1.concat(html2)) // concat
+console.log(html1.join('-')) // join
 
 
 
