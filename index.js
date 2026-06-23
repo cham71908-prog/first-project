@@ -110,7 +110,7 @@ const hello = document.createElement('div');
 
 hello.textContent = result;
 
-document.body.appendChild(hello); */
+document.body.appendChild(hello); 
 
 
 
@@ -159,6 +159,34 @@ let html2 = ['tetoun' ,'tange' ,'knitra']
 
 console.log(html1.concat(html2)) // concat
 console.log(html1.join('-')) // join
+*/
+
+//comparison
+let Askemail = prompt('enter your email')  // prompt() : كتفتح نافذة صغيرة كتطلب من المستخدم يدخل قيمة.
+let email = 'hicham@gmail.com'
+console.log(Askemail.toLocaleLowerCase().trim() == email) // toLowerCase() : كتحول جميع الحروف إلى حروف صغيرة.
+                                                          // trim() : كتحيد المسافات من البداية والنهاية
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
