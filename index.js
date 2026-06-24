@@ -162,14 +162,25 @@ console.log(html1.join('-')) // join
 */
 
 //comparison
-let Askemail = prompt('enter your email')  // prompt() : كتفتح نافذة صغيرة كتطلب من المستخدم يدخل قيمة.
+let Askemail =  prompt('enter your email')  // prompt() : كتفتح نافذة صغيرة كتطلب من المستخدم يدخل قيمة.
 let email = 'hicham@gmail.com'
 console.log(Askemail.toLocaleLowerCase().trim() == email) // toLowerCase() : كتحول جميع الحروف إلى حروف صغيرة.
                                                           // trim() : كتحيد المسافات من البداية والنهاية
+// == compraison values
+console.log( 5 == '5' ) // true
 
+// === comparison values and datatypes 
+console.log( 5 === '5' ) // false
 
+// !>
 
+console.log( 5 != '5' ) // false 
 
+let product = 'iphone 18';
+let size = 10 ;
+let salary = 30000 ;
+console.log( size <= 10 && salary == 30000 ) ; // && : and
+console.log( size == 10 || salary == 1000 ) ; // || : or
 
 
 
