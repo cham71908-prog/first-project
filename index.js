@@ -184,7 +184,22 @@ console.log( size == 10 || salary == 1000 ) ; // || : or
 
 
 
+// if
 
+let role = prompt('what is your role ?')
+
+if(role == 'admin')
+{
+    document.write('update, create, delete');
+}
+else if(role == 'moderator')
+{
+    document.write('update');
+}
+else
+{
+    document.write('hello user');
+}
 
 
 
