@@ -198,7 +198,28 @@ else if(role == 'moderator')
 }
 else
 {
-    document.write('hello user');
+document.write('hello user');
+} 
+
+// Another example for ' if '
+
+const resulte = prompt('what is result')
+
+if (resulte >= 95)
+{
+    document.write('excellent')
+}        
+else if (resulte >= 80)
+{
+    document.write('very good')
+}    
+else if ( resulte >= 50)
+{
+    document.write('good')
+}
+else
+{
+    document.write('fail')
 }
 
 
@@ -211,13 +232,7 @@ else
 
 
 
-
-
-
-
-
-
-
+/*
 function add() {
     const num1 = document.getElementById("num1").value;
     const num2 = document.getElementById("num2").value;
@@ -253,3 +268,4 @@ function divide() {
     
     document.getElementById("result").textContent = result;
 } 
+    */
