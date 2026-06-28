@@ -223,6 +223,22 @@ else
 }
 
 
+const student = prompt ('student write your password')
+
+if (student == 1627)
+{
+    document.write('15,8')
+}
+else if (student == 3468)
+{
+    document.write('12.47')
+}
+else
+{
+    document.write('error')
+}
+
+
 
 
 
