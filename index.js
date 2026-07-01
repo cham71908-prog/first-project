@@ -159,7 +159,7 @@ let html2 = ['tetoun' ,'tange' ,'knitra']
 
 console.log(html1.concat(html2)) // concat
 console.log(html1.join('-')) // join
-*/
+
 
 //comparison
 let Askemail =  prompt('enter your email')  // prompt() : كتفتح نافذة صغيرة كتطلب من المستخدم يدخل قيمة.
@@ -237,13 +237,21 @@ else
 {
     document.write('error')
 }
+*/
+// Another example
+ let age = Number(prompt('what is your age?'))
+ age == 18
+   ?document.write('you are 18 now , hello')
+   :age < 18
+   ?document.write('no , you are very young ')
+   :document.write('error');
 
-
-
-
-
-
-
+let golls = Number(prompt('what is your age ?'))
+let result = golls > 18? 'hello user'
+:golls ==  18?
+'you are 18 now'
+:'no you are very young'
+console.log(result)
 
 
 
