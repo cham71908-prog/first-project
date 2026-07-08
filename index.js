@@ -271,7 +271,26 @@ switch(role)
 
 }
 
+// loop 1
+//start ; condition , steps
+for( let i = 0; i < 5 ; i += 2 )
+{
+    console.log(i);
+}
 
+// loop 2
+
+let names = ['hicham' , 'taha' ,'mohamed']
+
+for( let i = names.length -1; i >= 0 ; i--)
+{
+    console.log(names[i]);
+}
+
+for( let i = 0 ; i < names.length ; i++)
+{
+    console.log(names[i])
+}
 
 
 /*
