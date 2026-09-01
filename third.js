@@ -10,3 +10,23 @@ const quotes = [
     "Many of life's failures are people who did not realize how close they were to success when they gave up.",
     "If you want to live a happy life, tie it to a goal, not to people or things." 
 ]
+
+const usedIndexes = new Set();
+const quoteElement = document.getElementById("quote")
+
+function generateQuote() {
+    if (usedIndexes.size >= quotes.length) {
+        usedIndexes.clear()
+    }
+
+    while (true) {
+        const randomIdx = Math.floor(Math.random() * quotes.length)
+
+        if (usedIndexes.has(randomIdx)) continue
+
+        const quote = quotes [randomIdx]
+        quoteElement.innerHTML = quote;
+        usedIndexes.add(randomIdx)
+        break
+     }
+}
